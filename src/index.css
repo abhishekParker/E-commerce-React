@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.slick-prev:before {
+ content: "\2B9C";
+ color: black;
+ font-size:40px;   
+ border-radius: 2px !important;
+ width: 100% !important;
+ height: 100%;
+ margin: auto;
+background-color: #fff !important;
+opacity: 0.75;
+border-radius: 10px !important;
+padding: 7px;
+}
+.slick-next:before{
+    content: "\2B9E";
+    color: black;
+ font-size:40px;   
+ border-radius: 2px !important;
+ width: 100% !important;
+ height: 100%;
+ margin: auto;
+background-color: #fff !important;
+opacity: 0.75;
+border-radius: 10px !important;
+padding: 7px;
+}
+.slick-prev {
+    left: -50px;
+    border-radius: 5px !important;
+    width: 50px;
+    height: 50px;
+}
+.slick-next {
+    right: -50px;
+    border-radius: 5px !important;
+    width: 50px;
+    height: 50px;
+}
+.slider-two{text-align: -webkit-center;}
